@@ -1,0 +1,34 @@
+.Header {
+
+  font-size: 60px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.UserActions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*.Options {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}*/
+
+.UserActionButton {
+	border: none;
+	padding: 12px 24px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 150px;
+	font-size: 15px;
+	font-weight: bold;
+	align-self: flex-end;
+}
+
+.UserActionButton:hover {
+	background-color: #C0C3C3;
+}

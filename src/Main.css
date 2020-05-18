@@ -1,0 +1,34 @@
+.Main {
+
+}
+
+.Table {
+	justify-content: center;
+
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	cursor: pointer;
+
+}
+
+.TableHeader {
+	font-weight: bold;
+	background-color: #282c34;
+}
+
+.Body {
+	font-weight: normal;
+	background-color: white;
+	color: black;
+}
+
+table, tr, td {
+	border: 3px solid #282c34;
+	border-radius: 10px;
+}
+
+.Body:hover {
+	background-color: #C0C3C3;
+}
