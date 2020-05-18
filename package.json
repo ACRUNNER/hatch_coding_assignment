@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-router": "^5.1.7",
     "@types/react-router-dom": "^5.1.5",
+    "express": "^4.17.1",
     "react": "^16.9.35",
     "react-dom": "^16.13.1",
     "react-hook-form": "^5.7.2",
@@ -20,7 +21,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node app.js",
     "build": "react-scripts build",
     "test": "./node_modules/.bin/cypress run",
     "eject": "react-scripts eject"
