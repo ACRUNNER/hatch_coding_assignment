@@ -12,7 +12,7 @@ function Main() {
 	const [ redirectCandidate, changeRedirectCandidate ] = useState<any>({})
 
 	useEffect(() => {
-		fetch('http://private-041255-sakura3.apiary-mock.com/applicants')
+		fetch('https://private-041255-sakura3.apiary-mock.com/applicants')
 		.then(response => response.json())
 		.then(data => {
 			changeCandidates(data);
