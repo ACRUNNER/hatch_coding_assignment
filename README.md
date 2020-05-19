@@ -24,3 +24,7 @@ Sidenote: There are slight differences in the app running on Heroku vs the one o
 
 There is one login with the email: fake@email.com The password is: password. Otherwise you can create your own account by signing up. The accounts create wont last if you reload the app since they are not stored in a backend. In the app you can sort the candidates but clicking the header on how to sort it. You can open up a page for a specific candidate by clicking the candidate in the table.
 
+## Coding Decisions
+
+I used React router to create different pages for the application. I used a table to display the information in as intuitive way as possible with choosing the sorting in the header and opening a page for the candidate inside the table as well. I created a fake object for the login/signup authorization to similuate a functional backend. I created a function that does the sorting for all the headers although in the real world sorting should be done in the backend. 
+
