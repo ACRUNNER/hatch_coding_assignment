@@ -18,6 +18,7 @@ Runs cypress tests locally.
 ## Link to Heroku
 
 https://hatch-coding-assignment.herokuapp.com/
+Sidenote: There are slight differences in the app running on Heroku vs the one on master.
 
 ## Using the app
 
